@@ -1,0 +1,95 @@
+/* COLOURS
+stroke: #03191E
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+}
+
+.artboard {
+  width: 800px;
+  height: 600px;
+  background: #fff;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  margin: 50px auto;
+  border: 20px white solid;
+  position: relative;
+}
+
+/* Battery Body */
+.battery-top {
+  width: 300px;
+  height: 5px;
+  background: #03191e;
+  top: 200px;
+  left: 200px;
+  position: absolute;
+}
+
+.battery-left {
+  width: 5px;
+  height: 150px;
+  background: #03191e;
+  top: 200px;
+  left: 200px;
+  position: absolute;
+}
+
+.battery-bottom {
+  width: 300px;
+  height: 5px;
+  background: #03191e;
+  top: 350px;
+  left: 200px;
+  position: absolute;
+}
+
+.battery-right1 {
+  width: 5px;
+  height: 60px;
+  background: #03191e;
+  top: 200px;
+  left: 500px;
+  position: absolute;
+}
+
+.battery-right2 {
+  width: 5px;
+  height: 60px;
+  background: #03191e;
+  top: 295px;
+  left: 500px;
+  position: absolute;
+}
+
+.battery-tipTop {
+  width: 25px;
+  height: 5px;
+  background: #03191e;
+  top: 255px;
+  left: 500px;
+  position: absolute;
+}
+
+.battery-tipRight {
+  width: 5px;
+  height: 40px;
+  background: #03191e;
+  top: 255px;
+  left: 525px;
+  position: absolute;
+}
+
+.battery-tipBottom {
+  width: 25px;
+  height: 5px;
+  background: #03191e;
+  top: 290px;
+  left: 500px;
+  position: absolute;
+}
